@@ -4,8 +4,7 @@ import '../icon/icon.scss'
 const CartWidgetComponent = ({ icon, size }) => {
 
     function addToCart() {
-        let element = document.getElementsById("cart-sidebar");
-        element.classList.add("active")
+        alert("Agregado al Carrito. Agregar class active al div mod-cart-sidebar para ver el sidebar del cart desplegado.")
     }
 
     return (
