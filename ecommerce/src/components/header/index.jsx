@@ -7,7 +7,7 @@ const HeaderComponent = () => {
         <header className="mod-header">
            <div className="row">
                <div className="col-3">
-                   <LogoComponent link="http://google.com.ar" img="/images/logo-retina.png" />
+                   <LogoComponent link="http://google.com.ar" size="--m" img="/images/logo-retina.png" />
                </div>
                <div className="col-7">
                    Menu
