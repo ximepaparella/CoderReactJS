@@ -1,4 +1,7 @@
 import LogoComponent from '../logo/'
+import NavBarComponent from '../navbar/'
+import CartWidgetComponent from '../cartWidget/'
+import WishlistComponent from '../wishlistWidget/'
 
 import './header.scss'
 
@@ -7,13 +10,16 @@ const HeaderComponent = () => {
         <header className="mod-header">
            <div className="row">
                <div className="col-3">
-                   <LogoComponent link="http://google.com.ar" size="--m" img="/images/logo-retina.png" />
+                   <LogoComponent link="http://google.com.ar" size="--s" img="/images/logo-retina.png" />
                </div>
-               <div className="col-7">
-                   Menu
+               <div className="col-6">
+                   <NavBarComponent />
                </div>
-               <div className="col-2">
-                   Actions
+               <div className="col-3">
+                   <div className="mod-actions --just-end">
+                        <CartWidgetComponent size="--s" icon="fi fi-rr-shopping-cart" />
+                        <WishlistComponent size="--s" icon="fi-rr-heart" />
+                   </div>
                </div>
            </div>
         </header>

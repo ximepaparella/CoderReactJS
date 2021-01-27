@@ -174,7 +174,7 @@ a {
   color: inherit;
   transition: all 0.2s ease-in-out;
   &:hover {
-    opacity: 0.8;
+    color:$red-400;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }

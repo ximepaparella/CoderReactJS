@@ -7,6 +7,7 @@ import './static/css/abstracts/_mixins.scss'
 import './static/css/abstracts/_helpers.scss'
 import './static/css/abstracts/_variables.scss'
 import './static/css/base/_reset.scss'
+import './static/css/base/_icon-font.scss'
 import './static/css/layout/_grid.scss'
 
 ReactDOM.render(

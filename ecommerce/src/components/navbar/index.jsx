@@ -3,13 +3,24 @@ import './navbar.scss'
 const NavBarComponent = () => {
   return (
     <>
-        <nav className="com-navbar">
-            <ul>
-              <li>
-                <a href={link}> </a>
-              </li>
-            </ul>
-        </nav>
+      <ul className="com-navbar">
+        <li className="item">
+          <a href=""> Inicio </a>
+        </li>
+        <li className="item">
+          <a href=""> Servicios </a>
+        </li>
+        <li className="item">
+          <a href=""> Productos </a>
+        </li>
+        <li className="item">
+          <a href=""> Promociones </a>
+        </li>
+        <li className="item">
+          <a href=""> Contacto </a>
+        </li>
+      </ul>
+
     </>
   );
 }
