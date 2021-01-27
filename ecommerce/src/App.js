@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
 
-import NavBar from './components/navbar/'
+import HeaderComponente from './components/header/'
+
 
 // definir como arrow function
 const App = () => {
   return (
     <>
-      <NavBar />
+      <section className="wrapper">
+          <HeaderComponente />
+      </section>
     </>
   );
 }

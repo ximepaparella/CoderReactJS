@@ -1,16 +1,17 @@
 import './navbar.scss'
 
-const NavBar = () => {
+const NavBarComponent = () => {
   return (
     <>
         <nav className="com-navbar">
-            <a>Link</a>
-            <a>Link</a>
-            <a>Link</a>
-            <a>Link</a>
+            <ul>
+              <li>
+                <a href={link}> </a>
+              </li>
+            </ul>
         </nav>
     </>
   );
 }
 
-export default NavBar;
+export default NavBarComponent;

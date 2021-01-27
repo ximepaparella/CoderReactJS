@@ -1,0 +1,32 @@
+//tamaños tipográficos
+@import "variables";
+@import "mixins";
+
+// font weights
+.--extra-light {
+  font-weight: 200;
+}
+
+.--light {
+  font-weight: 300;
+}
+
+.--regular {
+  font-weight: 400;
+}
+
+.--semi-bold {
+  font-weight: 600;
+}
+
+.--bold {
+  font-weight: 700;
+}
+
+.--extra-bold {
+  font-weight: 800;
+}
+
+.--black {
+  font-weight: 900;
+}
