@@ -1,6 +1,7 @@
 
 import HeaderComponente from './components/header/'
 import CartContainer from './containers/cart/'
+import ProductContainer from './containers/productContainer'
 
 
 // definir como arrow function
@@ -12,7 +13,12 @@ const App = () => {
           <HeaderComponente />
 
           <main>
-            main component
+            <div className="row-gap-4">
+              <ProductContainer />
+              <ProductContainer />
+              <ProductContainer />
+              <ProductContainer />
+            </div>
           </main>
 
           <footer>
