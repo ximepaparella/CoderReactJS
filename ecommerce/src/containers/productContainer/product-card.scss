@@ -15,36 +15,3 @@
 }
 
 /* Separar en componente */
-.com-quantity {
-    margin-top: 8px;
-    display: flex;
-    input {
-        border: 1px solid #ccc;
-        height:2.5rem;
-        padding: px(8) 0;
-        line-height: px(18);
-        width: px(45);
-        display: inline-block;
-        margin: 0;
-        text-align: center;
-        color: $red-500;
-        font-weight: 700;
-        -webkit-border-radius: 0!important;
-        -moz-border-radius: 0!important;
-        border-radius: 0!important;
-    }
-    div {
-        display: flex;
-        flex-direction: column;
-        button {
-            background: transparent;
-            border: 1px solid #ccc;
-            width:px(20);
-            height:px(20);
-            display: block;
-            text-align: center;
-            font-size: px(16);
-        }
-    }
-    
-}

@@ -1,0 +1,18 @@
+@import './../static/css/abstracts/mixins.scss';
+@import './../static/css/abstracts/variables.scss'; 
+
+.com-button {
+    font-size:12px;
+    text-transform: uppercase;
+    cursor:pointer;
+
+    &.--primary {
+        padding:px(16) px(32);
+        background-color:$red-500;
+        color:$light-neutral-100;
+
+        &:hover {
+            background-color:$red-600;
+        }
+    }
+}

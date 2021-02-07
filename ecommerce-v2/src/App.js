@@ -16,7 +16,7 @@ function App() {
                <div className="col-8">
                    <NavBarComponent />
                </div>
-               <div class="col-2">
+               <div className="col-2">
                   <CartWidgetComponent size="--s" icon="fi fi-rr-shopping-cart" />
                </div>
            </div>

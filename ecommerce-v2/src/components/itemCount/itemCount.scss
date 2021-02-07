@@ -1,0 +1,45 @@
+@import './../../static/css/abstracts/mixins.scss';
+@import './../../static/css/abstracts/variables.scss';  
+
+.mod-item-count {
+    display: flex;
+    margin:px(16) 0;
+    align-items: center;
+}
+
+.com-button {
+    margin-left:px(24);
+}
+
+.com-quantity {
+    display: flex;
+    span {
+        border: 1px solid #ccc;
+        height:2.5rem;
+        padding: px(8) 0;
+        line-height: px(18);
+        width: px(45);
+        display: inline-block;
+        margin: 0;
+        text-align: center;
+        color: $red-500;
+        font-weight: 700;
+        -webkit-border-radius: 0!important;
+        -moz-border-radius: 0!important;
+        border-radius: 0!important;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        button {
+            background: transparent;
+            border: 1px solid #ccc;
+            width:px(20);
+            height:px(20);
+            display: block;
+            text-align: center;
+            font-size: px(16);
+        }
+    }
+    
+}
