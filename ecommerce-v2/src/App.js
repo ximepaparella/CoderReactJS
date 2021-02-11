@@ -3,6 +3,7 @@ import NavBarComponent from './components/navBar/';
 import ItemListContainer from './containers/itemListContainer';
 import CartWidgetComponent from './components/cartWidget'
 import './components/header.scss'
+import ItemDetailContainer from './containers/itemDetailContainer';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
            </div>
         </header>
         <main>
-          <ItemListContainer greetings="Hola No hay productos aún" />
+          <ItemDetailContainer />
         </main>
     </div>
   );

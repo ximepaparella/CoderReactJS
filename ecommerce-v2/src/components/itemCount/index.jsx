@@ -4,10 +4,6 @@ import './../button.scss'
 
 const ItemCountComponent = ({stock, initial, onAdd}) => {
     const [qty, setQty] = useState(initial); 
-   
-    function onAdd() {
-        alert("Agregado al carrito!")
-    };
 
     function plusQty () {
         if(qty < stock ) {
